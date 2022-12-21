@@ -26,12 +26,6 @@
         display: flex;
         gap: 15%;
     }
-    .beach{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        height: 500px;
-    }
     .imgdiv{
         justify-content: center;
         display: flex;
@@ -39,7 +33,10 @@
     .textunderphoto{
         width: 60%;
         margin-top: 3%;
+        margin-left: 2%;
+        
     }
+    
     section{
         display: flex;
         flex-direction: column;
@@ -48,5 +45,13 @@
     .textunderphoto h4, h1{
 color: gray;
 font-weight: 300;
+    }
+    .twophoto1 img{
+        width: 90%;
+    }
+    .twophoto1{
+        width: 60%;
+        display: flex;
+        gap: 10%;
     }
 }
