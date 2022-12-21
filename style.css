@@ -1,8 +1,17 @@
 @media screen and (min-width:992px){
-  header  a{
-     text-decoration: none;
+  body{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+  }
+  body a{
+       text-decoration: none;
+  }
+  
+    header  a{
+      
+     
      color: black;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
     
     }
     header{
@@ -18,7 +27,7 @@
         gap: 15%;
     }
     .beach{
-        width: 50%;
+        width: 100%;
         margin: 0;
         padding: 0;
         height: 500px;
@@ -26,5 +35,18 @@
     .imgdiv{
         justify-content: center;
         display: flex;
+    }
+    .textunderphoto{
+        width: 60%;
+        margin-top: 3%;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textunderphoto h4, h1{
+color: gray;
+font-weight: 300;
     }
 }
