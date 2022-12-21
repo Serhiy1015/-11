@@ -17,4 +17,14 @@
         display: flex;
         gap: 15%;
     }
+    .beach{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        height: 500px;
+    }
+    .imgdiv{
+        justify-content: center;
+        display: flex;
+    }
 }
