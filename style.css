@@ -141,7 +141,7 @@
 
 
 
-@media screen and (min-width:82px) {
+@media screen and (min-width:825px) and (max-width:1082px) {
     body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -273,5 +273,11 @@
         color: aliceblue;
         border: 1px solid aliceblue;
         cursor: pointer;
+    }
+    nav a{
+        display: none;
+    }
+    nav img{
+        width: 50%;
     }
 }
