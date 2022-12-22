@@ -21,6 +21,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        margin-top: 1%;
     }
     header h1{
          font-weight: 100;
@@ -32,6 +33,7 @@
     .imgdiv{
         justify-content: center;
         display: flex;
+        margin-top: 5%;
     }
     .textunderphoto{
         width: 60%;
@@ -56,6 +58,7 @@ font-weight: 300;
         width: 60%;
         display: flex;
         gap: 10%;
+        margin-top: 5%;
     }
     .singup input{
         border-top: 0;
@@ -81,5 +84,24 @@ justify-content: center;
     .singup h1{
         color: black;
         font-size: 225%;
+    }
+    .buttondiv{
+      justify-content: center;
+      display: flex;
+      margin-top: 10%;
+    }
+    .buttondiv button{
+        background-color: rgba(240, 248, 255, 0);
+        border: 1px solid;
+        padding: 0.8% 2%;
+        margin-bottom: 2%;
+        transition-duration: 1s;
+
+    }
+    .buttondiv button:hover{
+background-color: black;
+color: aliceblue;
+border: 1px solid aliceblue;
+cursor: pointer;
     }
 }
